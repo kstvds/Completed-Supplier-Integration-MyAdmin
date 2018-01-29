@@ -1,51 +1,393 @@
 <!--parallel="tests" thread-count="2"-->
 <suite name="SupplierSuite">
-<!--test name="SupplierTestone" >
+<test name="SupplierTest1" >
 <parameter name="browsername" value="CH"/>
 <classes> 
 <class name="Search_MyAdmin.Search_Prepay" />
 </classes> 
 </test>
-<test name="SupplierTesttwo" >
+<test name="SupplierTest2" >
 <parameter name="browsername" value="CH"/>
 <classes> 
-<class name="Cancel_MyAdmin.Cancel_Credit" />
+<class name="Search_MyAdmin.Search_Credit" />
 </classes> 
 </test>
-<test name="SupplierTestthree" >
+<test name="SupplierTest3" >
 <parameter name="browsername" value="CH"/>
 <classes> 
-<class name="Cancel_MyAdmin.Cancel_Prepay_NFR" />
+<class name="Search_MyAdmin.Search_Credit_Card" />
 </classes> 
-</test-->
-<!--test name="SupplierTestFour" >
+</test>
+<test name="SupplierTest4" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Search_MyAdmin.Search_Prepay_Within_Deadline" />
+</classes> 
+</test>
+<test name="SupplierTest5" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Search_MyAdmin.Search_Credit_Within_Deadline" />
+</classes> 
+</test>
+<test name="SupplierTest6" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Search_MyAdmin.Search_Credit_Card_Within_Deadline" />
+</classes> 
+</test>
+<test name="SupplierTest7" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Search_MyAdmin.Search_Prepay_NFR" />
+</classes> 
+</test>
+<test name="SupplierTest8" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Search_MyAdmin.Search_Credit_NFR" />
+</classes> 
+</test>
+<test name="SupplierTest9" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Search_MyAdmin.Search_Credit_Card_NFR" />
+</classes> 
+</test>
+<test name="SupplierTest10" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Booking_MyAdmin.Book_Prepay" />
+</classes> 
+</test>
+<test name="SupplierTest11" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Booking_MyAdmin.Book_Credit" />
+</classes> 
+</test>
+<test name="SupplierTest12" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Booking_MyAdmin.Book_Credit_Card" />
+</classes> 
+</test>
+<test name="SupplierTest13" >
 <parameter name="browsername" value="CH"/>
 <classes> 
 <class name="Booking_MyAdmin.Book_Credit_Card_MultiSupplier" />
 </classes> 
 </test>
-<test name="SupplierTestFive" >
+<test name="SupplierTest14" >
 <parameter name="browsername" value="CH"/>
 <classes> 
 <class name="Booking_MyAdmin.Book_Credit_Card_Saved_Itenary_NFR" />
 </classes> 
 </test>
-<test name="SupplierTestSix" >
+<test name="SupplierTest15" >
 <parameter name="browsername" value="CH"/>
 <classes> 
-<class name="Booking_MyAdmin.Book_Credit_Card" />
+<class name="Booking_MyAdmin.Book_Credit_MultiSupplier" />
 </classes> 
-</test-->
-<test name="SupplierTestSeven" >
+</test>
+<test name="SupplierTest16" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Booking_MyAdmin.Book_Credit_Saved_Itenary_NFR" />
+</classes> 
+</test>
+<test name="SupplierTest17" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Booking_MyAdmin.Book_Prepay_MultiSupplier" />
+</classes> 
+</test>
+<test name="SupplierTest18" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Booking_MyAdmin.Book_Prepay_Saved_Itenary_NFR" />
+</classes> 
+</test>
+<test name="SupplierTest19" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Booking_MyAdmin.Credit_Book_Single_Pax_Same_First_Last_Name" />
+</classes> 
+</test>
+<test name="SupplierTest20" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Booking_MyAdmin.Credit_Book_Two_Pax_Same_First_Last_Name" />
+</classes> 
+</test>
+<test name="SupplierTest21" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Booking_MyAdmin.Credit_Book_Within_Deadline" />
+</classes> 
+</test>
+<test name="SupplierTest22" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Booking_MyAdmin.Credit_Card_Book_Single_Pax_Same_First_Last_Name" />
+</classes> 
+</test>
+<test name="SupplierTest23" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Booking_MyAdmin.Credit_Card_Book_Two_Pax_Same_First_Last_Name" />
+</classes> 
+</test>
+<test name="SupplierTest24" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Booking_MyAdmin.Credit_Card_Book_Within_Deadline" />
+</classes> 
+</test>
+<test name="SupplierTest25" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Booking_MyAdmin.Credit_Card_MultiRoom_Book_Within_DeadLine_Flag_Set" />
+</classes> 
+</test>
+<test name="SupplierTest26" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Booking_MyAdmin.Credit_Card_Unable_To_Book_Multi_Room_NFR" />
+</classes> 
+</test>
+<test name="SupplierTest27" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Booking_MyAdmin.Credit_MultiRoom_Book_Within_DeadLine_Flag_Set" />
+</classes> 
+</test>
+<test name="SupplierTest28" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Booking_MyAdmin.Credit_Unable_To_Book_Multi_Room_NFR" />
+</classes> 
+</test>
+<test name="SupplierTest29" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Booking_MyAdmin.Prepay_Book_Single_Pax_Same_First_Last_Name" />
+</classes> 
+</test>
+<test name="SupplierTest30" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Booking_MyAdmin.Prepay_Book_Two_Pax_Same_First_Last_Name" />
+</classes> 
+</test>
+<test name="SupplierTest31" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Booking_MyAdmin.Prepay_Book_Within_Deadline" />
+</classes> 
+</test>
+<test name="SupplierTest32" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Booking_MyAdmin.Prepay_MultiRoom_Book_Within_DeadLine_Flag_Set" />
+</classes> 
+</test>
+<test name="SupplierTest33" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Booking_MyAdmin.Prepay_Unable_To_Book_Multi_Room_NFR" />
+</classes> 
+</test>
+<test name="SupplierTest34" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Amend_MyAdmin.Amend_PrePay" />
+</classes> 
+</test>
+<test name="SupplierTest35" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Amend_MyAdmin.Amend_Credit" />
+</classes> 
+</test>
+<test name="SupplierTest36" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Amend_MyAdmin.Amend_Credit_Card" />
+</classes> 
+</test>
+<test name="SupplierTest37" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Amend_MyAdmin.Amend_Credit_Card_MultiSupplier" />
+</classes> 
+</test>
+<test name="SupplierTest38" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Amend_MyAdmin.Amend_Credit_Card_NFR" />
+</classes> 
+</test>
+<test name="SupplierTest39" >
 <parameter name="browsername" value="CH"/>
 <classes> 
 <class name="Amend_MyAdmin.Amend_Credit_Card_Within_DeadLine" />
 </classes> 
 </test>
-<!--test name="SupplierTestEight" >
+<test name="SupplierTest40" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Amend_MyAdmin.Amend_Credit_MultiSupplier" />
+</classes> 
+</test>
+<test name="SupplierTest41" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Amend_MyAdmin.Amend_Credit_Within_DeadLine" />
+</classes> 
+</test>
+<test name="SupplierTest42" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Amend_MyAdmin.Amend_Prepay_MultiSupplier" />
+</classes> 
+</test>
+<test name="SupplierTest43" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Amend_MyAdmin.Amend_PrePay_Within_DeadLine" />
+</classes> 
+</test>
+<test name="SupplierTest44" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Amend_MyAdmin.Credit_Amend_NFR" />
+</classes> 
+</test>
+<test name="SupplierTest45" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Amend_MyAdmin.Prepay_Amend_NFR" />
+</classes> 
+</test>
+<test name="SupplierTest46" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Cancel_MyAdmin.Cancel_Prepay" />
+</classes> 
+</test>
+<test name="SupplierTest47" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Cancel_MyAdmin.Cancel_Credit" />
+</classes> 
+</test>
+<test name="SupplierTest48" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Cancel_MyAdmin.Cancel_Credit_Card_NFR" />
+</classes> 
+</test>
+<test name="SupplierTest49" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Cancel_MyAdmin.Cancel_Credit_Card_Within_DeadLine" />
+</classes> 
+</test>
+<test name="SupplierTest50" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Cancel_MyAdmin.Cancel_Credit_NFR" />
+</classes> 
+</test>
+<test name="SupplierTest51" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Cancel_MyAdmin.Cancel_Credit_Within_DeadLine" />
+</classes> 
+</test>
+<test name="SupplierTest52" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Cancel_MyAdmin.Cancel_Prepay_NFR" />
+</classes> 
+</test>
+<test name="SupplierTest53" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Cancel_MyAdmin.Cancel_PrePay_Within_DeadLine" />
+</classes> 
+</test>
+<test name="SupplierTest54" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="SaveItenary_MyAdmin.Save_Prepay" />
+</classes> 
+</test>
+<test name="SupplierTest55" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="SaveItenary_MyAdmin.Save_Credit" />
+</classes> 
+</test>
+<test name="SupplierTest56" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="SaveItenary_MyAdmin.Save_Credit_Card" />
+</classes> 
+</test>
+<test name="SupplierTest57" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="SaveItenary_MyAdmin.Save_Credit_Card_MultiSupplier" />
+</classes> 
+</test>
+<test name="SupplierTest58" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="SaveItenary_MyAdmin.Save_Credit_Card_NFR" />
+</classes> 
+</test>
+<test name="SupplierTest59" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="SaveItenary_MyAdmin.Save_Credit_Card_Within_DeadLine" />
+</classes> 
+</test>
+<test name="SupplierTest60" >
 <parameter name="browsername" value="CH"/>
 <classes> 
 <class name="SaveItenary_MyAdmin.Save_Credit_MultiSupplier" />
 </classes> 
-</test-->
+</test>
+<test name="SupplierTest61" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="SaveItenary_MyAdmin.Save_Credit_NFR" />
+</classes> 
+</test>
+<test name="SupplierTest62" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="SaveItenary_MyAdmin.Save_Credit_Within_DeadLine" />
+</classes> 
+</test>
+<test name="SupplierTest63" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="SaveItenary_MyAdmin.Save_Prepay_MultiSupplier" />
+</classes> 
+</test>
+<test name="SupplierTest64" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="SaveItenary_MyAdmin.Save_Prepay_NFR" />
+</classes> 
+</test>
+<test name="SupplierTest65" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="SaveItenary_MyAdmin.Save_Prepay_Within_Deadline" />
+</classes> 
+</test>
 </suite>
