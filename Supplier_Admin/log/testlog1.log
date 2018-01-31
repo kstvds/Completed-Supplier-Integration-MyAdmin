@@ -7642,3 +7642,240 @@ Session ID: 51c0824ce0c04c76ad9aebd7a1449389
 2018-01-25 17:30:18,438 [main] INFO Amend_Credit_Card_Within_DeadLine - Changing Dates
 2018-01-25 17:30:18,836 [main] INFO Amend_Credit_Card_Within_DeadLine - Changed Dates
 2018-01-25 17:30:41,947 [main] INFO Amend_Credit_Card_Within_DeadLine - Amended
+2018-01-29 10:34:44,081 [main] INFO Search_Prepay - Test Case Started
+2018-01-29 10:34:52,420 [main] INFO Search_Prepay - Browser Opened
+2018-01-29 10:34:59,234 [main] INFO Search_Prepay - Test Case Started
+2018-01-29 10:35:07,849 [main] INFO Search_Prepay - Login Successful
+2018-01-29 10:35:10,533 [main] INFO Search_Prepay - Searching Customer
+2018-01-29 10:35:10,538 [main] INFO Search_Prepay - Navigating to customer search page
+2018-01-29 10:35:17,139 [main] INFO Search_Prepay - Navigated to customer search page
+2018-01-29 10:35:19,502 [main] INFO Search_Prepay - Selecting Customer
+2018-01-29 10:35:36,984 [main] INFO Search_Prepay - Customer Selected
+2018-01-29 10:35:36,996 [main] INFO Search_Prepay - Applying search Filters
+2018-01-29 10:35:36,996 [main] INFO Search_Prepay - Starting HotelSearch Prepay
+2018-01-29 10:35:55,307 [main] INFO Search_Prepay - Hotel Search Complete Prepay
+2018-01-29 10:35:58,043 [main] INFO Search_Credit - Test Case Started
+2018-01-29 10:43:29,161 [main] INFO Search_Prepay - Test Case Started
+2018-01-29 10:43:35,071 [main] INFO Search_Prepay - Browser Opened
+2018-01-29 10:43:41,620 [main] INFO Search_Prepay - Test Case Started
+2018-01-29 10:43:49,810 [main] INFO Search_Prepay - Login Successful
+2018-01-29 10:43:52,286 [main] INFO Search_Prepay - Searching Customer
+2018-01-29 10:43:52,287 [main] INFO Search_Prepay - Navigating to customer search page
+2018-01-29 10:43:58,843 [main] INFO Search_Prepay - Navigated to customer search page
+2018-01-29 10:44:01,189 [main] INFO Search_Prepay - Selecting Customer
+2018-01-29 10:44:20,582 [main] INFO Search_Prepay - Customer Selected
+2018-01-29 10:44:20,582 [main] INFO Search_Prepay - Applying search Filters
+2018-01-29 10:44:20,582 [main] INFO Search_Prepay - Starting HotelSearch Prepay
+2018-01-29 10:44:36,033 [main] INFO Search_Prepay - Hotel Search Complete Prepay
+2018-01-29 10:44:38,638 [main] INFO Search_Credit - Test Case Started
+2018-01-29 10:45:40,371 [main] INFO Search_Credit - Test Case Started
+2018-01-29 10:45:45,169 [main] INFO Search_Credit - Browser Opened
+2018-01-29 10:45:51,215 [main] INFO Search_Credit - Test Case Started
+2018-01-29 10:45:59,374 [main] INFO Search_Credit - Login Successful
+2018-01-29 10:46:01,888 [main] INFO Search_Credit - Searching Customer
+2018-01-29 10:46:01,888 [main] INFO Search_Credit - Navigating to customer search page
+2018-01-29 10:46:12,356 [main] INFO Search_Credit - chrome not reachable
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.10 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir8216_10303}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 252200a5f95157a6f1bebe0d9a0909a7
+2018-01-29 10:46:17,040 [main] INFO Search_Prepay_Within_Deadline - Test Case Started
+2018-01-29 10:46:21,007 [main] INFO Search_Prepay_Within_Deadline - Browser Opened
+2018-01-29 10:46:23,944 [main] INFO Search_Prepay_Within_Deadline - Test Case Started
+2018-01-29 10:46:32,052 [main] INFO Search_Prepay_Within_Deadline - chrome not reachable
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.03 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir5780_10001}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: a19f82104d55c54b5368ed2dc065608f
+*** Element info: {Using=xpath, value=/html/body/div/form/input[2]}
+2018-01-29 10:46:32,365 [main] INFO Search_Credit_Within_Deadline - Test Case Started
+2018-01-29 10:46:36,070 [main] INFO Search_Credit_Within_Deadline - Browser Opened
+2018-01-29 10:46:38,731 [main] INFO Search_Credit_Within_Deadline - Test Case Started
+2018-01-29 10:46:46,844 [main] INFO Search_Credit_Within_Deadline - chrome not reachable
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.04 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir1868_11836}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: e0028ae5fe4ae372e5539e1703a89da6
+*** Element info: {Using=xpath, value=/html/body/div/form/input[2]}
+2018-01-29 10:46:47,158 [main] INFO Search_Credit_Card_Within_Deadline - Test Case Started
+2018-01-29 10:47:49,563 [main] INFO Search_Prepay_NFR - Test Case Started
+2018-01-29 10:47:55,484 [main] INFO Search_Prepay_NFR - Browser Opened
+2018-01-29 10:48:02,731 [main] INFO Search_Prepay_NFR - Test Case Started
+2018-01-29 10:48:11,388 [main] INFO Search_Prepay_NFR - Login Successful
+2018-01-29 10:48:13,868 [main] INFO Search_Prepay_NFR - Searching Customer
+2018-01-29 10:48:13,868 [main] INFO Search_Prepay_NFR - Navigating to customer search page
+2018-01-29 10:48:21,105 [main] INFO Search_Prepay_NFR - Navigated to customer search page
+2018-01-29 10:48:23,410 [main] INFO Search_Prepay_NFR - Selecting Customer
+2018-01-29 10:48:43,533 [main] INFO Search_Prepay_NFR - Customer Selected
+2018-01-29 10:48:43,533 [main] INFO Search_Prepay_NFR - Applying search Filters
+2018-01-29 10:48:43,533 [main] INFO Search_Prepay_NFR - Starting HotelSearch NFR
+2018-01-29 10:49:02,801 [main] INFO Search_Prepay_NFR - Hotel Search Complete NFR
+2018-01-29 10:49:05,246 [main] INFO Search_Credit_NFR - Test Case Started
+2018-01-29 10:49:08,902 [main] INFO Search_Credit_NFR - Browser Opened
+2018-01-29 10:49:13,998 [main] INFO Search_Credit_NFR - Test Case Started
+2018-01-29 10:49:21,900 [main] INFO Search_Credit_NFR - Login Successful
+2018-01-29 10:49:24,384 [main] INFO Search_Credit_NFR - Searching Customer
+2018-01-29 10:49:24,384 [main] INFO Search_Credit_NFR - Navigating to customer search page
+2018-01-29 10:49:30,951 [main] INFO Search_Credit_NFR - Navigated to customer search page
+2018-01-29 10:49:33,342 [main] INFO Search_Credit_NFR - Selecting Customer
+2018-01-29 10:49:51,166 [main] INFO Search_Credit_NFR - Customer Selected
+2018-01-29 10:49:51,166 [main] INFO Search_Credit_NFR - Applying search Filters
+2018-01-29 10:49:51,166 [main] INFO Search_Credit_NFR - Starting HotelSearch NFR
+2018-01-29 10:50:13,727 [main] INFO Search_Credit_NFR - no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Strictly Non Refundable')]"}
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 63 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir8152_23850}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 6ace74bd233518f61e531891d7743b8d
+*** Element info: {Using=xpath, value=//span[contains(text(),'Strictly Non Refundable')]}
+2018-01-29 10:50:16,274 [main] INFO Search_Credit_Card_NFR - Test Case Started
+2018-01-29 10:50:19,822 [main] INFO Search_Credit_Card_NFR - Browser Opened
+2018-01-29 10:50:23,137 [main] INFO Search_Credit_Card_NFR - Test Case Started
+2018-01-29 10:50:31,292 [main] INFO Search_Credit_Card_NFR - chrome not reachable
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.06 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir8196_26573}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 6b39a4b7290a73246e2b8982a2707887
+*** Element info: {Using=xpath, value=/html/body/div/form/input[2]}
+2018-01-29 10:50:31,575 [main] INFO Book_Prepay - Test Case Started
+2018-01-29 10:50:39,092 [main] INFO Book_Credit - Test Case Started
+2018-01-29 10:50:46,607 [main] INFO Book_Credit_Card - Test Case Started
+2018-01-29 10:51:48,403 [main] INFO Book_Credit_Card_MultiSupplier - Test Case Started
+2018-01-29 10:51:52,069 [main] INFO Book_Credit_Card_MultiSupplier - Browser Opened
+2018-01-29 10:51:55,322 [main] INFO Book_Credit_Card_MultiSupplier - Test Case Started
+2018-01-29 10:52:03,524 [main] INFO Book_Credit_Card_MultiSupplier - chrome not reachable
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.11 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir4980_10329}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1d6ed5580c5b9b665f2ae12836042709
+*** Element info: {Using=xpath, value=/html/body/div/form/input[2]}
+2018-01-29 10:52:03,836 [main] INFO Book_Credit_Card_Saved_Itenary_NFR - Test Case Started
+2018-01-29 10:52:10,429 [main] INFO Book_Credit_MultiSupplier - Test Case Started
+2018-01-29 10:53:12,117 [main] INFO Book_Credit_Saved_Itenary_NFR - Test Case Started
+2018-01-29 10:53:16,119 [main] INFO Book_Credit_Saved_Itenary_NFR - Browser Opened
+2018-01-29 10:53:22,775 [main] INFO Book_Credit_Saved_Itenary_NFR - Test Case Started
+2018-01-29 10:53:30,817 [main] INFO Book_Credit_Saved_Itenary_NFR - chrome not reachable
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.01 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir4716_29363}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: c4364ced6046e7c274aadd7a4483045c
+*** Element info: {Using=xpath, value=/html/body/div/form/input[2]}
+2018-01-29 10:53:31,110 [main] INFO Book_Prepay_MultiSupplier - Test Case Started
+2018-01-29 10:53:40,224 [main] INFO Book_Prepay_Saved_Itenary_NFR - Test Case Started
+2018-01-29 10:53:44,555 [main] INFO Book_Prepay_Saved_Itenary_NFR - Browser Opened
+2018-01-29 10:53:54,397 [main] INFO Book_Prepay_Saved_Itenary_NFR - Test Case Started
+2018-01-29 10:54:08,140 [main] INFO Book_Prepay_Saved_Itenary_NFR - Login Successful
+2018-01-29 10:54:14,308 [main] INFO Book_Prepay_Saved_Itenary_NFR - Searching Customer
+2018-01-29 10:54:14,308 [main] INFO Book_Prepay_Saved_Itenary_NFR - Navigating to customer search page
+2018-01-29 10:54:22,434 [main] INFO Book_Prepay_Saved_Itenary_NFR - chrome not reachable
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.09 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir5900_28549}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: ec3be3e46640a2309446fe60c1a8cba6
+*** Element info: {Using=xpath, value=//a[contains(text(),'Operations')]}
+2018-01-29 10:54:22,714 [main] INFO Credit_Book_Single_Pax_Same_First_Last_Name - Test Case Started
+2018-01-29 10:55:24,456 [main] INFO Credit_Book_Two_Pax_Same_First_Last_Name - Test Case Started
+2018-01-29 10:55:29,354 [main] INFO Credit_Book_Two_Pax_Same_First_Last_Name - Browser Opened
+2018-01-29 10:55:36,273 [main] INFO Credit_Book_Two_Pax_Same_First_Last_Name - Test Case Started
+2018-01-29 10:55:46,120 [main] INFO Credit_Book_Two_Pax_Same_First_Last_Name - Login Successful
+2018-01-29 10:55:48,997 [main] INFO Credit_Book_Two_Pax_Same_First_Last_Name - Searching Customer
+2018-01-29 10:55:48,997 [main] INFO Credit_Book_Two_Pax_Same_First_Last_Name - Navigating to customer search page
+2018-01-29 10:55:56,383 [main] INFO Credit_Book_Two_Pax_Same_First_Last_Name - Navigated to customer search page
+2018-01-29 10:55:58,697 [main] INFO Credit_Book_Two_Pax_Same_First_Last_Name - Selecting Customer
+2018-01-29 10:56:17,088 [main] INFO Credit_Book_Two_Pax_Same_First_Last_Name - Customer Selected
+2018-01-29 10:56:17,103 [main] INFO Credit_Book_Two_Pax_Same_First_Last_Name - Applying search Filters
+2018-01-29 10:56:17,103 [main] INFO Credit_Book_Two_Pax_Same_First_Last_Name - Starting HotelSearch Credit
+2018-01-29 10:56:35,670 [main] INFO Credit_Book_Two_Pax_Same_First_Last_Name - Hotel Search Complete Credit
+2018-01-29 10:56:35,671 [main] INFO Credit_Book_Two_Pax_Same_First_Last_Name - Starting Hotel Book Credit Two PAX with Same First and Last Name
+2018-01-29 10:56:38,763 [main] INFO Credit_Book_Two_Pax_Same_First_Last_Name - Entering Passenger details
+2018-01-29 10:56:49,147 [main] INFO Credit_Book_Two_Pax_Same_First_Last_Name - Entered Passenger details
+2018-01-29 10:57:05,470 [main] INFO Credit_Book_Two_Pax_Same_First_Last_Name - chrome not reachable
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.12 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir5908_30081}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: b18aca949819cdab614b29d6250c88f4
+*** Element info: {Using=xpath, value=//button[contains(text(),'OK')]}
+2018-01-29 10:57:05,771 [main] INFO Credit_Book_Within_Deadline - Test Case Started
+2018-01-29 10:57:09,312 [main] INFO Credit_Book_Within_Deadline - Browser Opened
+2018-01-29 10:57:14,193 [main] INFO Credit_Book_Within_Deadline - Test Case Started
+2018-01-29 10:57:16,613 [main] INFO Credit_Card_Book_Single_Pax_Same_First_Last_Name - Test Case Started
+2018-01-29 10:57:20,181 [main] INFO Credit_Card_Book_Single_Pax_Same_First_Last_Name - Browser Opened
+2018-01-29 10:57:25,057 [main] INFO Credit_Card_Book_Single_Pax_Same_First_Last_Name - Test Case Started
+2018-01-29 10:57:38,975 [main] INFO Credit_Card_Book_Single_Pax_Same_First_Last_Name - chrome not reachable
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.07 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir5248_6131}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: e2f8b7cd9ca9dfa98612c2872fc1e6fd
+2018-01-29 10:57:39,256 [main] INFO Credit_Card_Book_Two_Pax_Same_First_Last_Name - Test Case Started
+2018-01-29 10:57:43,432 [main] INFO Credit_Card_Book_Two_Pax_Same_First_Last_Name - Browser Opened
+2018-01-29 10:57:48,010 [main] INFO Credit_Card_Book_Two_Pax_Same_First_Last_Name - Test Case Started
+2018-01-29 10:57:56,102 [main] INFO Credit_Card_Book_Two_Pax_Same_First_Last_Name - chrome not reachable
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.06 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir8748_17398}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 6120eb984844765980c22273d02c1f36
+*** Element info: {Using=xpath, value=/html/body/div/form/input[2]}
+2018-01-29 10:57:56,377 [main] INFO Credit_Card_Book_Within_Deadline - Test Case Started
+2018-01-29 10:57:59,898 [main] INFO Credit_Card_Book_Within_Deadline - Browser Opened
+2018-01-29 10:58:05,051 [main] INFO Credit_Card_Book_Within_Deadline - Test Case Started
+2018-01-29 10:58:13,172 [main] INFO Credit_Card_Book_Within_Deadline - Login Successful
+2018-01-29 10:58:15,626 [main] INFO Credit_Card_Book_Within_Deadline - Searching Customer
+2018-01-29 10:58:15,626 [main] INFO Credit_Card_Book_Within_Deadline - Navigating to customer search page
+2018-01-29 10:58:22,076 [main] INFO Credit_Card_Book_Within_Deadline - Navigated to customer search page
+2018-01-29 10:58:24,395 [main] INFO Credit_Card_Book_Within_Deadline - Selecting Customer
+2018-01-29 10:58:42,681 [main] INFO Credit_Card_Book_Within_Deadline - Customer Selected
+2018-01-29 10:58:42,681 [main] INFO Credit_Card_Book_Within_Deadline - Applying search Filters
+2018-01-29 10:58:42,681 [main] INFO Credit_Card_Book_Within_Deadline - Starting HotelSearch Credit Card Within Deadline
+2018-01-29 10:58:48,104 [main] INFO Credit_Card_MultiRoom_Book_Within_DeadLine_Flag_Set - Test Case Started
+2018-01-29 10:58:51,611 [main] INFO Credit_Card_MultiRoom_Book_Within_DeadLine_Flag_Set - Browser Opened
+2018-01-29 10:58:56,396 [main] INFO Credit_Card_MultiRoom_Book_Within_DeadLine_Flag_Set - Test Case Started
+2018-01-29 10:59:03,404 [main] INFO Credit_Card_MultiRoom_Book_Within_DeadLine_Flag_Set - Login Successful
+2018-01-29 10:59:03,419 [main] INFO Credit_Card_Unable_To_Book_Multi_Room_NFR - Test Case Started
+2018-01-29 13:09:58,780 [main] INFO Search_Prepay - Test Case Started
+2018-01-29 13:12:52,272 [main] INFO Search_Prepay - Test Case Started
+2018-01-29 13:12:56,376 [main] INFO Search_Prepay - Browser Opened
+2018-01-29 13:15:20,403 [main] INFO Search_Prepay - Test Case Started
