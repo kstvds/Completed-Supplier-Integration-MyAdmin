@@ -86,7 +86,7 @@ public class Credit_Card_Book_Two_Pax_Same_First_Last_Name {
 				Thread.sleep(2000);
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Accommodation_Book_Credit_Card_Two_Pax_Same_First_Last_Name/Log-In.jpg");
 
-		} catch (Exception e) {
+		} catch (Throwable e) {
 			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Credit_Card_Two_Pax_Same_First_Last_Name/Log-In.jpg");
 			test.log(LogStatus.FAIL, "Login");
 			errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Credit_Card_Two_Pax_Same_First_Last_Name/Log-In.jpg";
@@ -116,7 +116,7 @@ public class Credit_Card_Book_Two_Pax_Same_First_Last_Name {
 				 Thread.sleep(2000);
 				 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Accommodation_Book_Credit_Card_Two_Pax_Same_First_Last_Name/Customer-Search.jpg");
 			
-			} catch (Exception e) {
+			} catch (Throwable e) {
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Credit_Card_Two_Pax_Same_First_Last_Name/Customer-Search.jpg");
 				test.log(LogStatus.FAIL, "Navigation to customer search page");
 				errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Credit_Card_Two_Pax_Same_First_Last_Name/Customer-Search.jpg";
@@ -150,7 +150,7 @@ public class Credit_Card_Book_Two_Pax_Same_First_Last_Name {
 				test.log(LogStatus.PASS, "Customer Selected");
 				
 			 }
-			 catch (Exception e) {
+			 catch (Throwable e) {
 				 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Credit_Card_Two_Pax_Same_First_Last_Name/Customer-list.jpg");
 					test.log(LogStatus.FAIL, "Customer Selection");
 					errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Credit_Card_Two_Pax_Same_First_Last_Name/Customer-list.jpg";
@@ -205,7 +205,7 @@ public class Credit_Card_Book_Two_Pax_Same_First_Last_Name {
 				 test.log(LogStatus.INFO, "Ending HotelSearch Credit Card");
 				 test.log(LogStatus.PASS, "PASSED HotelSearch Credit Card");
 				 logger.info("Hotel Search Complete Credit Card");
-			} catch (Exception e) {
+			} catch (Throwable e) {
 				test.log(LogStatus.FAIL, "Hotel Search Credit Card");
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Credit_Card_Two_Pax_Same_First_Last_Name/Search-Result.jpg");
 				errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Credit_Card_Two_Pax_Same_First_Last_Name/Search-Result.jpg";
@@ -234,10 +234,13 @@ public class Credit_Card_Book_Two_Pax_Same_First_Last_Name {
 					driverqa.findElement(NewAccoBooking.paxLname).sendKeys(excel.getData(0, 21, 2));
 					Select passengertitle = new Select(driverqa.findElement(NewAccoBooking.paxtitle));
 					passengertitle.selectByIndex(1);
-					driverqa.findElement(NewAccoBooking.paxFname2).sendKeys(excel.getData(0, 21, 1));
-					driverqa.findElement(NewAccoBooking.paxLname2).sendKeys(excel.getData(0, 21, 2));
-					Select passengertitle2 = new Select(driverqa.findElement(NewAccoBooking.paxtitle2));
-					passengertitle2.selectByIndex(1);
+					if (driverqa.findElements(NewAccoBooking.paxFname2).size() != 0) {
+						driverqa.findElement(NewAccoBooking.paxFname2).sendKeys(excel.getData(0, 22, 1));
+						Thread.sleep(1000);
+						driverqa.findElement(NewAccoBooking.paxLname2).sendKeys(excel.getData(0, 22, 2));
+						Select passengertitle2 = new Select(driverqa.findElement(NewAccoBooking.paxtitle2));
+						passengertitle2.selectByIndex(1);
+					}
 					driverqa.findElement(NewAccoBooking.acceptChkBX).click();
 					Thread.sleep(2000);
 					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Accommodation_Book_Credit_Card_Two_Pax_Same_First_Last_Name/Passenger-Details.jpg");
@@ -299,7 +302,7 @@ public class Credit_Card_Book_Two_Pax_Same_First_Last_Name {
 				    logger.info("Hotel Book Complete Credit Card Two PAX with Same First and Last Name");
 
 
-				} catch (Exception e) {
+				} catch (Throwable e) {
 					test.log(LogStatus.FAIL, "Hotel Book Credit Two PAX with Same First and Last Name");
 					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Credit_Two_Pax_Same_First_Last_Name/Save-Itenary.jpg");
 					errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Credit_Card_Two_Pax_Same_First_Last_Name/Save-Itenary.jpg";

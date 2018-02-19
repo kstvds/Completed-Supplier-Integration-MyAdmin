@@ -85,7 +85,7 @@ public class Credit_Unable_To_Book_Multi_Room_NFR {
 				Thread.sleep(2000);
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Accommodation_Book_Credit_Unable_To_Book_MultiRoom_NFR/Log-In.jpg");
 
-		} catch (Exception e) {
+		} catch (Throwable e) {
 			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Credit_Unable_To_Book_MultiRoom_NFR/Log-In.jpg");
 			test.log(LogStatus.FAIL, "Login");
 			errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Credit_Unable_To_Book_MultiRoom_NFR/Log-In.jpg";
@@ -115,7 +115,7 @@ public class Credit_Unable_To_Book_Multi_Room_NFR {
 				 Thread.sleep(2000);
 				 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Accommodation_Book_Credit_Unable_To_Book_MultiRoom_NFR/Customer-Search.jpg");
 			
-			} catch (Exception e) {
+			} catch (Throwable e) {
 				test.log(LogStatus.FAIL, "Navigation to customer search page");
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Credit_Unable_To_Book_MultiRoom_NFR/Customer-Search.jpg");
 				errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Credit_Unable_To_Book_MultiRoom_NFR/Customer-Search.jpg";
@@ -149,7 +149,7 @@ public class Credit_Unable_To_Book_Multi_Room_NFR {
 				test.log(LogStatus.PASS, "Customer Selected");
 				
 			 }
-			 catch (Exception e) {
+			 catch (Throwable e) {
 				    obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Credit_Unable_To_Book_MultiRoom_NFR/Customer-list.jpg");
 					test.log(LogStatus.FAIL, "Customer Selection");
 					errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Credit_Unable_To_Book_MultiRoom_NFR/Customer-list.jpg";
@@ -206,7 +206,7 @@ public class Credit_Unable_To_Book_Multi_Room_NFR {
 				 test.log(LogStatus.INFO, "Ending HotelSearch Credit NFR Multirooms");
 				 test.log(LogStatus.PASS, "PASSED HotelSearch Credit NFR Multirooms");
 				 logger.info("Hotel Search Complete Credit NFR Multirooms");
-			} catch (Exception e) {
+			} catch (Throwable e) {
 				test.log(LogStatus.FAIL, "Hotel Search Credit NFR Multirooms");
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Credit_Unable_To_Book_MultiRoom_NFR/Search-Result.jpg");
 				errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Credit_Unable_To_Book_MultiRoom_NFR/Search-Result.jpg";

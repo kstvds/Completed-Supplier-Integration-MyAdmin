@@ -87,7 +87,7 @@ public class Prepay_Unable_To_Book_Multi_Room_NFR {
 				Thread.sleep(2000);
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Accommodation_Book_Prepay_Unable_To_Book_MultiRoom_NFR/Log-In.jpg");
 
-		} catch (Exception e) {
+		} catch (Throwable e) {
 			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Unable_To_Book_MultiRoom_NFR/Log-In.jpg");
 			test.log(LogStatus.FAIL, "Login");
 			errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Unable_To_Book_MultiRoom_NFR/Log-In.jpg";
@@ -117,7 +117,7 @@ public class Prepay_Unable_To_Book_Multi_Room_NFR {
 				 Thread.sleep(2000);
 				 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Accommodation_Book_Prepay_Unable_To_Book_MultiRoom_NFR/Customer-Search.jpg");
 			
-			} catch (Exception e) {
+			} catch (Throwable e) {
 				logger.info(e.getMessage());
 				test.log(LogStatus.FAIL, e.getMessage());
 				rep.endTest(test);
@@ -151,7 +151,7 @@ public class Prepay_Unable_To_Book_Multi_Room_NFR {
 				test.log(LogStatus.PASS, "Customer Selected");
 				
 			 }
-			 catch (Exception e) {
+			 catch (Throwable e) {
 				    obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Unable_To_Book_MultiRoom_NFR/Customer-list.jpg");
 					test.log(LogStatus.FAIL, "Customer Selection");
 					errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Unable_To_Book_MultiRoom_NFR/Customer-list.jpg";
@@ -208,7 +208,7 @@ public class Prepay_Unable_To_Book_Multi_Room_NFR {
 				 test.log(LogStatus.INFO, "Ending HotelSearch Prepay NFR Multirooms");
 				 test.log(LogStatus.PASS, "PASSED HotelSearch Prepay NFR Multirooms");
 				 logger.info("Hotel Search Complete Prepay NFR Multirooms");
-			} catch (Exception e) {
+			} catch (Throwable e) {
 				test.log(LogStatus.FAIL, "Hotel Search Prepay NFR Multirooms");
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay/Search-Result.jpg");
 				errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Unable_To_Book_MultiRoom_NFR/Search-Result.jpg";

@@ -87,7 +87,7 @@ public class Save_Credit_MultiSupplier {
 				Thread.sleep(2000);
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Save/Accommodation_Save_Credit_MultiSupplier/Log-In.jpg");
 
-		} catch (Exception e) {
+		} catch (Throwable e) {
 			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Save/Error/Accommodation_Save_Credit_MultiSupplier/Log-In.jpg");
 			test.log(LogStatus.FAIL, "Login");
 			errorpath=Config.SnapShotPath() + "/Save/Error/Accommodation_Save_Credit_MultiSupplier/Log-In.jpg";
@@ -116,7 +116,7 @@ public class Save_Credit_MultiSupplier {
 				 Thread.sleep(3000);
 				 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Save/Accommodation_Save_Credit_MultiSupplier/Customer-Search.jpg");
 			
-			} catch (Exception e) {
+			} catch (Throwable e) {
 				test.log(LogStatus.FAIL, "Navigation to customer search page");
 				errorpath=Config.SnapShotPath() + "/Save/Error/Accommodation_Save_Credit_MultiSupplier/Customer-Search.jpg";
 
@@ -150,7 +150,7 @@ public class Save_Credit_MultiSupplier {
 				test.log(LogStatus.PASS, "Customer Selected");
 				
 			 }
-			 catch (Exception e) {
+			 catch (Throwable e) {
 				 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Save/Error/Accommodation_Save_Credit_MultiSupplier/Customer-list.jpg");
 					test.log(LogStatus.FAIL, "Customer Selection");
 					errorpath=Config.SnapShotPath() + "/Save/Error/Accommodation_Save_Credit_MultiSupplier/Customer-list.jpg";
@@ -202,7 +202,7 @@ public class Save_Credit_MultiSupplier {
 				 test.log(LogStatus.INFO, "Ending HotelSearch Credit for Supplier Room");
 				 test.log(LogStatus.PASS, "PASSED HotelSearch Credit for Supplier Room");
 				 logger.info("Hotel Search Complete Credit for Supplier Room");
-			} catch (Exception e) {
+			} catch (Throwable e) {
 				test.log(LogStatus.FAIL, "Hotel Search Credit for Supplier Room");
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Save/Error/Accommodation_Save_Credit_MultiSupplier/Search-Result-Supplier.jpg");
 				errorpath=Config.SnapShotPath() + "/Save/Error/Accommodation_Save_Credit_MultiSupplier/Search-Result-Supplier.jpg";
@@ -230,11 +230,13 @@ public class Save_Credit_MultiSupplier {
 					driverqa.findElement(NewAccoBooking.paxLname).sendKeys(excel.getData(0, 21, 2));
 					Select passengertitle = new Select(driverqa.findElement(NewAccoBooking.paxtitle));
 					passengertitle.selectByIndex(1);
-					driverqa.findElement(NewAccoBooking.paxFname2).sendKeys(excel.getData(0, 22, 1));
-					Thread.sleep(1000);
-					driverqa.findElement(NewAccoBooking.paxLname2).sendKeys(excel.getData(0, 22, 2));
-					Select passengertitle2 = new Select(driverqa.findElement(NewAccoBooking.paxtitle2));
-					passengertitle2.selectByIndex(1);
+					if (driverqa.findElements(NewAccoBooking.paxFname2).size() != 0) {
+						driverqa.findElement(NewAccoBooking.paxFname2).sendKeys(excel.getData(0, 22, 1));
+						Thread.sleep(1000);
+						driverqa.findElement(NewAccoBooking.paxLname2).sendKeys(excel.getData(0, 22, 2));
+						Select passengertitle2 = new Select(driverqa.findElement(NewAccoBooking.paxtitle2));
+						passengertitle2.selectByIndex(1);
+					}
 					driverqa.findElement(NewAccoBooking.acceptChkBX).click();
 					Thread.sleep(2000);
 					 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Save/Accommodation_Save_Credit_MultiSupplier/Passenger-Details-Supplier.jpg");
@@ -264,7 +266,7 @@ public class Save_Credit_MultiSupplier {
 				    logger.info("Hotel Save Complete Credit for Supplier Room");
 
 
-				} catch (Exception e) {
+				} catch (Throwable e) {
 					test.log(LogStatus.FAIL, "Hotel Save Itenary Credit for Supplier Room");
 					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Save/Error/Accommodation_Save_Credit_MultiSupplier/Save-Itenary-Supplier.jpg");
 					errorpath=Config.SnapShotPath() + "/Save/Error/Accommodation_Save_Credit_MultiSupplier/Save-Itenary-Supplier.jpg";
@@ -319,7 +321,7 @@ public class Save_Credit_MultiSupplier {
 					 test.log(LogStatus.PASS, "PASSED HotelSearch Credit for DOTW Room");
 					 logger.info("Hotel Search Complete Credit for DOTW Room");
 				} 
-					catch (Exception e) {
+					catch (Throwable e) {
 						test.log(LogStatus.FAIL, "Hotel Search Credit for DOTW Room");
 						obj.Takesnap(driverqa, Config.SnapShotPath() + "/Save/Error/Accommodation_Save_Credit_MultiSupplier/Search-Result-DOTW.jpg");
 						errorpath=Config.SnapShotPath() + "/Save/Error/Accommodation_Save_Credit_MultiSupplier/Search-Result-DOTW.jpg";
@@ -374,7 +376,7 @@ public class Save_Credit_MultiSupplier {
 					test.log(LogStatus.INFO, "Ending HotelSave Credit for DOTW Room");
 					test.log(LogStatus.PASS, "PASSED HotelSave Credit for DOTW Room");
 					logger.info("Hotel Save Complete Credit for DOTW Room");
-				} catch (Exception e) {
+				} catch (Throwable e) {
 					test.log(LogStatus.FAIL, "Hotel Save Prepay for DOTW Room");
 					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Save/Error/Accommodation_Save_Credit_MultiSupplier/Itenary-Details-DOTW.jpg");
 					errorpath=Config.SnapShotPath() + "/Save/Error/Accommodation_Save_Credit_MultiSupplier/Itenary-Details-DOTW.jpg";
@@ -412,7 +414,7 @@ public class Save_Credit_MultiSupplier {
 						wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.thirdPartsaveItncart));
 						wait.until(ExpectedConditions.elementToBeClickable(NewAccoBooking.thirdPartsaveItncart));
 						driverqa.findElement(NewAccoBooking.thirdPartsaveItncart).click();
-					} catch (Exception e) {
+					} catch (Throwable e) {
 						test.log(LogStatus.FAIL, "Hotel Delete from Cart 1st Itenary");
 						obj.Takesnap(driverqa, Config.SnapShotPath() + "/Save/Error/Accommodation_Save_Credit_MultiSupplier/Delete-1st-Itenary.jpg");
 						errorpath=Config.SnapShotPath() + "/Save/Error/Accommodation_Save_Credit_MultiSupplier/Delete-1st-Itenary.jpg";
@@ -449,7 +451,7 @@ public class Save_Credit_MultiSupplier {
 						obj.Takesnap(driverqa, Config.SnapShotPath() + "/Save/Accommodation_Save_Credit_MultiSupplier/Deleted-full-itenary.jpg");
 
 						
-					} catch (Exception e) {
+					} catch (Throwable e) {
 						test.log(LogStatus.FAIL, "Hotel Delete from Cart 2nd Itenary");
 						obj.Takesnap(driverqa, Config.SnapShotPath() + "/Save/Error/Accommodation_Save_Credit_MultiSupplier/Delete-2nd-Itenary.jpg");
 						errorpath=Config.SnapShotPath() + "/Save/Error/Accommodation_Save_Credit_MultiSupplier/Delete-2nd-Itenary.jpg";

@@ -390,4 +390,10 @@
 <class name="SaveItenary_MyAdmin.Save_Prepay_Within_Deadline" />
 </classes> 
 </test>
+<test name="SupplierTest66">
+		<parameter name="browsername" value="CH" />
+		<classes>
+			<class name="Cancel_MyAdmin.Cancel_Credit_Card" />
+		</classes>
+	</test>
 </suite>
